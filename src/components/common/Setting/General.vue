@@ -138,7 +138,6 @@ function handleImportButtonClick(): void {
         :class="isMobile && 'items-start'"
       >
         <span class="flex-shrink-0 w-[100px]">{{ $t('setting.chatHistory') }}</span>
-
         <div class="flex flex-wrap items-center gap-4">
           <NButton size="small" @click="exportData">
             <template #icon>
@@ -146,7 +145,6 @@ function handleImportButtonClick(): void {
             </template>
             {{ $t('common.export') }}
           </NButton>
-
           <input id="fileInput" type="file" style="display:none" @change="importData">
           <NButton size="small" @click="handleImportButtonClick">
             <template #icon>
@@ -154,7 +152,6 @@ function handleImportButtonClick(): void {
             </template>
             {{ $t('common.import') }}
           </NButton>
-
           <NPopconfirm placement="bottom" @positive-click="clearData">
             <template #trigger>
               <NButton size="small">
