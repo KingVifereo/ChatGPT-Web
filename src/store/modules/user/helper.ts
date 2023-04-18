@@ -17,7 +17,7 @@ export function defaultSetting(): UserState {
     userInfo: {
       avatar: 'https://github.com/KingVifereo/ChatGPT-Web/main/src/assets/avatar.jpg',
       name: 'SunShijiang',
-      description: 'Star on <a href="https://github.com/KingVifereo/ChatGPT-Web" class="text-blue-500" target="_blank" >SunShijiang</a>',
+      description: '今天有又是美好的一天啦~',
     },
   }
 }
