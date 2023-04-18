@@ -3,9 +3,9 @@ import { ss } from '@/utils/storage'
 const LOCAL_NAME = 'userStorage'
 
 export interface UserInfo {
-  //avatar: string
+  avatar: string
   name: string
-  //description: string
+  description: string
 }
 
 export interface UserState {
@@ -15,9 +15,9 @@ export interface UserState {
 export function defaultSetting(): UserState {
   return {
     userInfo: {
-      //avatar: 'https://github.com/KingVifereo/ChatGPT-Web/main/src/assets/avatar.jpg',
+      avatar: 'https://github.com/KingVifereo/ChatGPT-Web/main/src/assets/avatar.jpg',
       name: 'SunShijiang',
-      //description: 'Star on <a href="https://github.com/KingVifereo/ChatGPT-Web" class="text-blue-500" target="_blank" >GitHub</a>',
+      description: 'Star on <a href="https://github.com/KingVifereo/ChatGPT-Web" class="text-blue-500" target="_blank" >SunShijiang</a>',
     },
   }
 }
